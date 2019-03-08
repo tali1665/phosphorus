@@ -1,7 +1,7 @@
 var P = (function() {
   'use strict';
 
-  var SCALE = window.devicePixelRatio || 1;
+  var SCALE = window.devicePixelRatio || 1.1;
 
   var hasTouchEvents = 'ontouchstart' in document;
 
